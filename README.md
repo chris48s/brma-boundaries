@@ -1,8 +1,8 @@
-# GeoJSON Broad Rental Market Areas
+# Boundaries for Broad Rental Market Areas
 
 ## What is it?
 
-Broad Rental Market Areas (BRMAs) are the geographical areas used to determine Local Housing Allowance (LHA) rates. They are maintained by the [Valuation Office Agency](https://www.gov.uk/government/organisations/valuation-office-agency). This repository makes the boundaries of these areas available in GeoJSON format facilitating easy use with popular web-based mapping libraries and APIs. These GeoJSON boundaries are derived from converting ESRI shape file boundaries published at:
+Broad Rental Market Areas (BRMAs) are the geographical areas used to determine Local Housing Allowance (LHA) rates. They are maintained by the [Valuation Office Agency](https://www.gov.uk/government/organisations/valuation-office-agency). This repository makes the boundaries of these areas available in GeoJSON and KML formats facilitating easy use with popular web-based mapping libraries and APIs. These GeoJSON/KML boundaries are derived from converting ESRI shape file boundaries published at:
 
 * http://www.sharegeo.ac.uk/handle/10672/603
 * http://www.sharegeo.ac.uk/handle/10672/605
@@ -13,7 +13,7 @@ This data was obtained in September 2014 (England and Wales Boundaries) / Octobe
 
 ## Usage
 
-Download the boundaries and use them in your project or app. GeoJSON boundaries can be used with most popular web-based mapping libraries and APIs. e.g:
+Download the boundaries and use them in your project or app. Most popular web-based mapping libraries and APIs support either KML or GeoJSON formats. e.g:
 
 * [Google Maps API](https://developers.google.com/maps/)
 * [MapBox](https://www.mapbox.com/developers/api/)
